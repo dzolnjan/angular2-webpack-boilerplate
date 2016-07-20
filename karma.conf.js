@@ -18,18 +18,13 @@ module.exports = function(config) {
         /**
          * Entry point / test environment builder is also written in TypeScript.
          */
-        files: ['./tests/main.ts'],
+        files: ['./karma.entry.ts'],
 
         /**
          * Transform files before loading them.
          */
         preprocessors: {
-            './src/**/*.ts': [
-                'webpack',
-                'sourcemap',
-                'coverage'
-            ],
-            './tests/**/*.ts': [
+            './karma.entry.ts': [
                 'webpack'
             ]
         },
