@@ -18,7 +18,7 @@
     "lint": "npm run lint:ts && npm run lint:sass",
     "lint:ts": "tslint src/**/*.ts tests/**/*.ts",
     "lint:sass": "sass-lint",
-    "pretest": "npm run lint",
+
     "test": "karma start",
     "build": "webpack",
     "postinstall": "typings install",
