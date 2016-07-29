@@ -10,7 +10,7 @@ module.exports = {
     /**
      * Entry point / test environment builder is also written in TypeScript.
      */
-    entry: './tests/main.ts',
+    entry: './karma.entry.ts',
 
     verbose: true,
 
